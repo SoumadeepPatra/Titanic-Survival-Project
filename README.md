@@ -24,7 +24,7 @@ Embarked: Port of Embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)
 Survived: Survival status (0 = No, 1 = Yes)
 
 # 🛠️ Project Workflow
-Data Loading – Import the dataset and explore its structure.
+## Data Loading – Import the dataset and explore its structure.
 
 Data Cleaning – Handle missing values, correct data types, and remove irrelevant features.
 
@@ -33,12 +33,6 @@ Exploratory Data Analysis (EDA) – Visualize patterns and relationships between
 Feature Engineering – Create new features (e.g., Title from Name, Family Size).
 
 Model Building – Train various classification algorithms such as:
-
-Logistic Regression
-
-Random Forest Classifier
-
-Support Vector Machine (SVM)
 
 Model Evaluation – Compare models using accuracy, precision, recall, and confusion matrix.
 
