@@ -2,7 +2,7 @@
 This project uses the Titanic dataset to build a machine learning model that predicts whether a passenger survived or not.
 It is one of the most popular beginner projects for learning data analysis and classification modeling.
 
-📂 Dataset
+# 📂 Dataset
 The dataset contains details about Titanic passengers, such as:
 
 Pclass: Passenger class (1st, 2nd, 3rd)
@@ -23,7 +23,7 @@ Embarked: Port of Embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)
 
 Survived: Survival status (0 = No, 1 = Yes)
 
-🛠️ Project Workflow
+# 🛠️ Project Workflow
 Data Loading – Import the dataset and explore its structure.
 
 Data Cleaning – Handle missing values, correct data types, and remove irrelevant features.
@@ -44,21 +44,21 @@ Model Evaluation – Compare models using accuracy, precision, recall, and confu
 
 Prediction – Generate survival predictions for new passenger data.
 
-📊 Key Insights
+# 📊 Key Insights
 Gender and Passenger Class were strong predictors of survival.
 
 Younger passengers and those in higher classes had better survival chances.
 
 Certain family groupings increased the likelihood of survival.
 
-🧰 Technologies Used
+# 🧰 Technologies Used
 Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
 
 Jupyter Notebook for experimentation
 
 Git/GitHub for version control
 
-🎯 Goal
+# 🎯 Goal
 The aim of this project is to:
 
 Learn and practice the end-to-end machine learning workflow
