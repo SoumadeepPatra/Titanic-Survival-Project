@@ -24,19 +24,26 @@ Embarked: Port of Embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)
 Survived: Survival status (0 = No, 1 = Yes)
 
 # 🛠️ Project Workflow
-Data Loading – Import the dataset and explore its structure.
+## Data Loading – 
+Import the dataset and explore its structure.
 
-Data Cleaning – Handle missing values, correct data types, and remove irrelevant features.
+## Data Cleaning – 
+Handle missing values, correct data types, and remove irrelevant features.
 
-Exploratory Data Analysis (EDA) – Visualize patterns and relationships between features and survival.
+## Exploratory Data Analysis (EDA) – 
+Visualize patterns and relationships between features and survival.
 
-Feature Engineering – Create new features (e.g., Title from Name, Family Size).
+## Feature Engineering – 
+Create new features (e.g., Title from Name, Family Size).
 
-Model Building – Train various classification algorithms such as:
+## Model Building – 
+Train various classification algorithms such as:
 
-Model Evaluation – Compare models using accuracy, precision, recall, and confusion matrix.
+## Model Evaluation – 
+Compare models using accuracy, precision, recall, and confusion matrix.
 
-Prediction – Generate survival predictions for new passenger data.
+## Prediction – 
+Generate survival predictions for new passenger data.
 
 # 📊 Key Insights
 Gender and Passenger Class were strong predictors of survival.
