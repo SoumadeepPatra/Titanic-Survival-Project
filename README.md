@@ -5,7 +5,7 @@ It is one of the most popular beginner projects for learning data analysis and c
 # 📂 Dataset
 The dataset contains details about Titanic passengers, such as:
 
-Pclass: Passenger class (1st, 2nd, 3rd)
+. Pclass: Passenger class (1st, 2nd, 3rd)
 
 Sex: Gender
 
