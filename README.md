@@ -1,65 +1,68 @@
-## 🚢 Titanic Survival Prediction
+# 🚢 Titanic Survival Prediction
+This project uses the Titanic dataset to build a machine learning model that predicts whether a passenger survived or not.
+It is one of the most popular beginner projects for learning data analysis and classification modeling.
 
-Objective:
-The objective of this project is to develop a machine learning model that predicts whether a passenger aboard the Titanic survived or not, based on personal and travel-related attributes.
+📂 Dataset
+The dataset contains details about Titanic passengers, such as:
 
-Dataset Description:
-The dataset contains demographic and socio-economic information for individual passengers, including:
+Pclass: Passenger class (1st, 2nd, 3rd)
 
-PassengerId – Unique identifier for each passenger
+Sex: Gender
 
-Pclass – Ticket class (1 = First, 2 = Second, 3 = Third)
+Age: Age of passenger
 
-Name – Passenger’s name
+SibSp: Number of siblings/spouses aboard
 
-Sex – Gender of the passenger
+Parch: Number of parents/children aboard
 
-Age – Passenger’s age in years
+Fare: Ticket fare
 
-SibSp – Number of siblings/spouses aboard the Titanic
+Cabin: Cabin number
 
-Parch – Number of parents/children aboard the Titanic
+Embarked: Port of Embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)
 
-Ticket – Ticket number
+Survived: Survival status (0 = No, 1 = Yes)
 
-Fare – Ticket fare
+🛠️ Project Workflow
+Data Loading – Import the dataset and explore its structure.
 
-Cabin – Cabin number (if available)
+Data Cleaning – Handle missing values, correct data types, and remove irrelevant features.
 
-Embarked – Port of embarkation (C = Cherbourg; Q = Queenstown; S = Southampton)
+Exploratory Data Analysis (EDA) – Visualize patterns and relationships between features and survival.
 
-Survived – Survival status (0 = No, 1 = Yes) – Target variable
+Feature Engineering – Create new features (e.g., Title from Name, Family Size).
 
-Methodology:
+Model Building – Train various classification algorithms such as:
 
-Data Preprocessing:
+Logistic Regression
 
-Handling missing values for variables like Age, Cabin, and Embarked
+Random Forest Classifier
 
-Encoding categorical variables (e.g., Sex, Embarked)
+Support Vector Machine (SVM)
 
-Feature scaling and selection of relevant features
+Model Evaluation – Compare models using accuracy, precision, recall, and confusion matrix.
 
-Model Building:
+Prediction – Generate survival predictions for new passenger data.
 
-Splitting the dataset into training and testing sets
+📊 Key Insights
+Gender and Passenger Class were strong predictors of survival.
 
-Training classification algorithms such as Logistic Regression, Random Forest, or Decision Tree
+Younger passengers and those in higher classes had better survival chances.
 
-Evaluating model performance using accuracy, precision, recall, and F1-score
+Certain family groupings increased the likelihood of survival.
 
-Result:
-The model was able to learn survival patterns based on socio-economic class, gender, and other features. For example, female passengers and those in higher classes generally had higher survival probabilities.
+🧰 Technologies Used
+Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
 
-Conclusion:
-This project demonstrates the end-to-end process of building a predictive machine learning model, including data preprocessing, feature engineering, model training, and evaluation. The Titanic dataset provides a simple yet effective platform for understanding classification problems, handling real-world data imperfections, and applying supervised learning techniques.
+Jupyter Notebook for experimentation
 
-Tools & Libraries Used:
+Git/GitHub for version control
 
-Python
+🎯 Goal
+The aim of this project is to:
 
-Pandas, NumPy
+Learn and practice the end-to-end machine learning workflow
 
-Matplotlib, Seaborn (for visualization)
+Understand data preprocessing and feature engineering
 
-Scikit-learn (for machine learning models)
+Build, evaluate, and compare classification models
