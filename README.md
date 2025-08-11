@@ -1,4 +1,4 @@
-## 🚢 Titanic Survival Prediction
+# 🚢 Titanic Survival Prediction
 This project uses the Titanic dataset to build a machine learning model that predicts whether a passenger survived or not.
 It is one of the most popular beginner projects for learning data analysis and classification modeling.
 
