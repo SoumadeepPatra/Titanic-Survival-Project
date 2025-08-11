@@ -24,7 +24,7 @@ Embarked: Port of Embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)
 Survived: Survival status (0 = No, 1 = Yes)
 
 # 🛠️ Project Workflow
-## Data Loading – Import the dataset and explore its structure.
+Data Loading – Import the dataset and explore its structure.
 
 Data Cleaning – Handle missing values, correct data types, and remove irrelevant features.
 
